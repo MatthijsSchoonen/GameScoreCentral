@@ -1,0 +1,7 @@
+{
+  "name": "GameScoreCentral",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
