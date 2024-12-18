@@ -33,7 +33,7 @@
 </template>
 
 <script setup lang="ts">
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
+import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonIcon, IonButton, IonItem } from '@ionic/vue';
 import ExploreContainer from '@/components/ExploreContainer.vue';
 import dart from '@/assets/dart.json';
 import { arrowBack } from "ionicons/icons";
