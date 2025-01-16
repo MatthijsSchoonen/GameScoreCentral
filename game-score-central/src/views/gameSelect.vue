@@ -28,6 +28,15 @@
            
             
       </ion-item>
+      <ion-item @click="toTournament()">
+      <Vue3Lottie class="anim"
+              :animationData="cup"
+            />
+           
+            <p>Tournament</p>
+           
+            
+      </ion-item>
     </ion-content>
   </ion-page>
 </template>
@@ -36,6 +45,7 @@
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonIcon, IonButton, IonItem } from '@ionic/vue';
 import ExploreContainer from '@/components/ExploreContainer.vue';
 import dart from '@/assets/dart.json';
+import cup from '@/assets/cup.json';
 import { arrowBack } from "ionicons/icons";
 import { useRouter } from "vue-router";
 
@@ -48,6 +58,9 @@ function back(){
 
 function toDart(){
   router.push("/dart");
+}
+function toTournament(){
+  router.push("/tournament");
 }
 
 </script>
